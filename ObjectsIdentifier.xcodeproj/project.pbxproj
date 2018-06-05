@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098DB8E020C6489B00C68774 /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 098DB8DF20C6489B00C68774 /* ImageClassifier.mlmodel */; };
 		7B3985972081608E006CB61A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3985962081608E006CB61A /* AppDelegate.swift */; };
 		7B3985992081608E006CB61A /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3985982081608E006CB61A /* ImageClassificationViewController.swift */; };
 		7B39859C2081608E006CB61A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B39859A2081608E006CB61A /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098DB8DF20C6489B00C68774 /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ImageClassifier.mlmodel; path = ../../../../../../Documents/ImageClassifier.mlmodel; sourceTree = "<group>"; };
 		7B3985932081608E006CB61A /* ObjectsIdentifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectsIdentifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3985962081608E006CB61A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B3985982081608E006CB61A /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				7B3985B720816321006CB61A /* SqueezeNet.mlmodel */,
 				7B3985BD20816342006CB61A /* watson_tools.mlmodel */,
+				098DB8DF20C6489B00C68774 /* ImageClassifier.mlmodel */,
 				7B3985BB2081633D006CB61A /* watson_plants.mlmodel */,
 				7B3985C52081811F006CB61A /* baby.mlmodel */,
 				7B3985C1208175CE006CB61A /* wedding.mlmodel */,
@@ -237,6 +240,7 @@
 				7B3985972081608E006CB61A /* AppDelegate.swift in Sources */,
 				7B3985BC2081633D006CB61A /* watson_plants.mlmodel in Sources */,
 				7B3985C020816373006CB61A /* CGImagePropertyOrientation.swift in Sources */,
+				098DB8E020C6489B00C68774 /* ImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38LRG4T748;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
 				INFOPLIST_FILE = ObjectsIdentifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.james.ObjectsIdentifier;
@@ -405,7 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38LRG4T748;
+				DEVELOPMENT_TEAM = CQ45U4X9K3;
 				INFOPLIST_FILE = ObjectsIdentifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.james.ObjectsIdentifier;
